@@ -6,6 +6,9 @@ Creates a list of lists of integers representing
 
 
 def pascal_triangle(n):
+    '''
+    list of lists of integers.
+    '''
 
     triangle = []
     if type(n) is not int or n <= 0:
